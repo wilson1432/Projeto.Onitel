@@ -1,0 +1,58 @@
+
+body {
+    background: linear-gradient(45deg, #00bcd4, #ffeb3b);
+    color: #fff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.container .card {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,.15);
+    background: #fff;
+    transition: .3s;
+}
+
+.container .card:hover {
+    height: 400px;
+}
+
+.container .card .caixaimg {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.container .card .caixaimg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

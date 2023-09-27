@@ -1,0 +1,51 @@
+
+.container .card .content {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    overflow: hidden;
+    text-align: center;
+    transition: .5s;
+}
+
+.container .card:hover .content {
+    top: 150px;
+    height: 250px;
+}
+
+.container .card:hover .caixaimg {
+    top: -100px;
+    scale: .75;
+    box-shadow: 0 15px 45px rgba(0,0,0,.15);
+}
+
+.container .card .content h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: var(--cor);
+}
+
+.container .card .content p{
+    color: #333;
+    
+}
+
+.container .card .content a{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    background: var(--cor);
+    transition: .5s;
+    margin-left: 25px;
+}
+
+.container .card .content a:hover {
+    background: #040305;
+    transition: .5s;
+}
