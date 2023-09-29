@@ -29,7 +29,7 @@
 }
 
 .container .card .content p{
-    color: #333;
+    color: black;
     
 }
 
@@ -41,11 +41,11 @@
     color: #fff;
     border-radius: 8px;
     background: var(--cor);
-    transition: .5s;
+    transition: .3s;
     margin-left: 25px;
 }
 
 .container .card .content a:hover {
     background: #040305;
-    transition: .5s;
+    transition: .3s;
 }

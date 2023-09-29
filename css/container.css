@@ -1,8 +1,9 @@
 body {
     background: no-repeat center/cover url(../assets/background.jpg);
+    background-size: 100% 100%;
 }
 section {
-    display: flex;
+    display: grid;
     background-size: 100% 100%;
     justify-content: center;
     align-items: center;
@@ -28,7 +29,7 @@ section {
     height: 300px;
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0,0,0,.15);
-    background: #fff;
+    background: white;
     transition: .3s;
 }
 
