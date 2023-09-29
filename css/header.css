@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     padding: 25px;
-    background: linear-gradient(138deg, rgba(5,2,41,1) 38%, rgba(8,8,59,1) 50%, rgba(12,21,82,1) 76%);
 }
 
 a {

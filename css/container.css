@@ -1,11 +1,9 @@
-
 body {
-    background: linear-gradient(45deg, #00bcd4, #ffeb3b);
-    color: #fff;
+    background: no-repeat center/cover url(../assets/background.jpg);
 }
-
 section {
     display: flex;
+    background-size: 100% 100%;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
