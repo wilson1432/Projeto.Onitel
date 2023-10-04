@@ -17,24 +17,39 @@
 </head>
 
 <body>
-    <header class="header">
-        <img class="logo" src="assets/logo.png" alt="Logo Onitel">
+    <header>
         <nav>
-            <a href="https://onitel.com.br" target="_blank">
-                Site Onitel
-            </a>
-            <a href="https://www.google.com/maps/d/u/0/viewer?ll=-16.112454127030322%2C-47.986444028285156&z=18&mid=1YIkYsV9dNl0zHXJh-5AUIObm32BGQ4Mk"
-                target="_blank">
-                KMZ
-            </a>
-            <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfU1xWolq_y-Y2o_pQyFQJ22WptFxic6c1Rd77xGJcOAtat0A/viewform"
-                target="_blank">
-                Ouvidoria
-            </a>
-            <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfIzZ4Ap9C9MpiOxvwn59psMRxN0Rzqs1e_ysRvDmnMNIlFaw/viewform?fbzx=-1601766255256195520"
-                target="_blank">
-                Denúncias
-            </a>
+            <img class="logo" src="assets/logo.png" alt="Logo da página">
+            <ul class="nav-links">
+                <li>
+                    <a href="https://onitel.com.br" target="_blank">
+                        Site Onitel
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/d/u/0/viewer?ll=-16.112454127030322%2C-47.986444028285156&z=18&mid=1YIkYsV9dNl0zHXJh-5AUIObm32BGQ4Mk"
+                        target="_blank">
+                        KMZ
+                    </a>
+                </li>
+                <li class="button">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfU1xWolq_y-Y2o_pQyFQJ22WptFxic6c1Rd77xGJcOAtat0A/viewform"
+                        target="_blank">
+                        Ouvidoria
+                    </a>
+                </li>
+                <li class="button">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIzZ4Ap9C9MpiOxvwn59psMRxN0Rzqs1e_ysRvDmnMNIlFaw/viewform?fbzx=-1601766255256195520"
+                        target="_blank">
+                        Denúncias
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </nav>
     </header>
     <section>
@@ -223,13 +238,23 @@
                 </div>
             </div>
         </div>
+        <footer>
+            <p class="reserved">
+                Developed by <strong>Israel Pereira</strong> and updated by <strong>Wilson Fernando</strong>. All rights
+                reserved to
+                <a href="https://www.onitel.com.br">Onitel</a>.<br><br>
+            </p>
+        </footer>
     </section>
-    
-        <div class="whats">
-            <a href="https://wa.me/5508007802288" target="blank">
-                <img src="assets/whatsapp.png" width="75" alt="Fale conosco pelo whatsapp" title="Fale conosco pelo whatsapp">
-            </a>
-        </div>
+
+    <div class="whats">
+        <a href="https://wa.me/5508007802288" target="blank">
+            <img src="assets/whatsapp.png" width="75" alt="Fale conosco pelo whatsapp"
+                title="Fale conosco pelo whatsapp">
+        </a>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

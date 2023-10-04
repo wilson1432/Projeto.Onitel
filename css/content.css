@@ -34,7 +34,11 @@
 }
 
 .container .card .content a{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
     margin-top: 15px;
     padding: 10px 20px;
     text-decoration: none;
@@ -42,7 +46,6 @@
     border-radius: 8px;
     background: var(--cor);
     transition: .3s;
-    margin-left: 25px;
 }
 
 .container .card .content a:hover {
