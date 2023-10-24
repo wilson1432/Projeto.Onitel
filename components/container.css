@@ -58,6 +58,11 @@ section {
 }
 
 .reserved {
+    color: white;
     font-size: 20px;
     text-align: center;
+}
+
+.reserved a {
+    color: #232d83;
 }
