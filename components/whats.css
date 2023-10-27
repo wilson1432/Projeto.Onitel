@@ -3,5 +3,10 @@
     position: fixed;
     bottom: 15px;
     right: 10px;
-    z-index: 9999;
+    z-index: 4;
+    transition: transform 100ms linear;
+}
+
+.whats:hover {
+    transform: scale(1.1);
 }

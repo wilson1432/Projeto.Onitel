@@ -29,7 +29,7 @@ section {
     width: 300px;
     height: 300px;
     border-radius: 20px;
-    box-shadow: 0 35px 80px rgba(0,0,0,.15);
+    box-shadow: 0 35px 80px #00000026;
     background: white;
     transition: .5s;
 }
