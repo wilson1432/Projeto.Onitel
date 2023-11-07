@@ -4,19 +4,21 @@ header {
     padding: 25px 0;
 }
 
+.logo {
+    height: 65px;
+    width: 190px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
-
-.logo {
-    height: 65px;
-    width: 190px;
-    margin-left: 20px;
-    cursor: pointer;
+header nav .button-none a:hover {
+    color: #232d83;
 }
 
 .nav-links {
@@ -34,7 +36,12 @@ nav {
     margin-right: 20px;
 }
 
-.nav-links a {
+.nav-links .button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links .button-none a {
     text-decoration: none;
     color: #fff;
 }
