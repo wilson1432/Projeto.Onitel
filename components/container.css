@@ -58,10 +58,43 @@ section {
     object-fit: cover;
 }
 
+.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 35px 80px #00000026;
+    border-radius: 15px;
+    padding: 16px;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 900px;
+    margin: auto;
+}
+
+.login {
+    padding: 3px;
+    flex-basis: 240px;
+    width: 100%;
+}
+
+.box-login {
+    margin: 0 170px 0;
+}
+
+.box .login h2, .box-login h2 {
+    color: #009688;
+    text-shadow: 2px 2px 5px #ccc;
+}
+
+.box .login p {
+    font-weight: bold;
+}
+
 .reserved {
     color: white;
     font-size: 20px;
     text-align: center;
+    margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
